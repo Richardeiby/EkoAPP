@@ -21,7 +21,7 @@
                     </div>
                     <div class="row">
                         <div class="col d-grid">
-                            <button type="submit" class="btn btn-success">Iniciar Sesion</button>
+                            <button type="submit" class="btn btn-warning color-btn">Iniciar Sesion</button>
                         </div>
                     </div>
                 </form>
