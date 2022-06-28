@@ -4,6 +4,7 @@
 <header class="container-fluid color-btn fixed-top">
     <div class="row size-orange">
         <div class="col-11 text-light d-flex">
+            <a class="nav-link link-light pt-3" href="perfilUsuario.php"><i class="fa-solid fa-house fa-lg"></i></a>
             <p class="pt-2 px-4 fs-4">Servicios</p>
         </div>
     </div>
@@ -11,7 +12,12 @@
 
 
 <div class="container pt-7 col-sm-10">
-
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-3 d-flex flex-row-reverse">
+            <a name="" id="" class="btn btn-success" href="servicio.php" role="button"><i class="fa-solid fa-plus"></i> Nuevo Servicio</a>
+        </div>
+    </div>
     <!-- card-service -->
 
     <div class="pt-2">
@@ -47,13 +53,13 @@
                     </div>
                     <div class="col-2 pe-4">
                         <div class="row ">
-                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Ver</button>
+                            <a type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Ver</a>
                         </div>
                         <div class="row pt-2">
-                            <button type="button" class="btn btn-warning color-btn"><i class="fa-solid fa-pen-to-square"></i> Editar</button>
+                            <a type="button" class="btn btn-warning color-btn"><i class="fa-solid fa-pen-to-square"></i> Editar</a>
                         </div>
                         <div class="row pt-2">
-                            <button type="button" class="btn btn-danger"><i class="fa-solid fa-circle-xmark"></i> Cancelar</button>
+                            <a type="button" class="btn btn-danger"><i class="fa-solid fa-circle-xmark"></i> Cancelar</a>
                         </div>
                     </div>
                 </div>
@@ -62,8 +68,8 @@
     </div>
 
 
-    
- <div class="pt-2">
+
+    <div class="pt-2">
         <div class="card">
             <h5 class="card-header"> Id: #123135546 </h5>
             <div class="card-body">
@@ -96,13 +102,13 @@
                     </div>
                     <div class="col-2 pe-4">
                         <div class="row ">
-                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Ver</button>
+                            <a type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Ver</a>
                         </div>
                         <div class="row pt-2">
-                            <button type="button" class="btn btn-warning color-btn"><i class="fa-solid fa-pen-to-square"></i> Editar</button>
+                            <a type="button" class="btn btn-warning color-btn"><i class="fa-solid fa-pen-to-square"></i> Editar</a>
                         </div>
                         <div class="row pt-2">
-                            <button type="button" class="btn btn-danger"><i class="fa-solid fa-circle-xmark"></i> Cancelar</button>
+                            <a type="button" class="btn btn-danger"><i class="fa-solid fa-circle-xmark"></i> Cancelar</a>
                         </div>
                     </div>
                 </div>
@@ -112,4 +118,4 @@
 
 </div>
 
-<?php include '../template/footer.php' ?>
+<?php include '../template/footerOrange.php' ?>

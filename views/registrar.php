@@ -4,7 +4,7 @@
 <header class="container-fluid color-btn fixed-top">
     <div class="row size-orange">
         <div class="col-11 text-light d-flex">
-              <a class="nav-link link-light" href="../"><i class=" bi bi-x-lg fs-4"></i></a>
+              <a class="nav-link link-light pt-3" href="../"><i class="fa-solid fa-x fa-lg"></i></i></a>
             <p class="pt-2 px-4 fs-4">Nuevo Usuario</p>
         </div>
     </div>
