@@ -11,3 +11,15 @@ body{
     border-color: #de4e0f;
     color: #fff;
 }
+
+.pt-7 {
+    padding-top: 5rem !important;
+  }
+
+.pt-10 {
+    padding-top: 7rem !important;
+  }
+
+.size-orange{
+    height: 3.5rem;
+}

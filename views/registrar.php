@@ -1,11 +1,19 @@
 <?php include '../template/header.php' ?>
 
 
-<div class="container pt-5">
-    <div class="card text-start">
-        <div class="card-header">
-            <p class="text-start fs-4 fw-bold m-0">Registro:</p>
+<header class="container-fluid color-btn fixed-top">
+    <div class="row size-orange">
+        <div class="col-11 text-light d-flex">
+              <a class="nav-link link-light" href="../"><i class=" bi bi-x-lg fs-4"></i></a>
+            <p class="pt-2 px-4 fs-4">Nuevo Usuario</p>
         </div>
+    </div>
+</header>
+
+
+
+<div class="container pt-10">
+    <div class="card text-start">
         <div class="card-body">
             <div class="container">
                 <form method="POST" action="/Class/DatosBasicos.php">
@@ -40,7 +48,7 @@
                     </div>
                     <div class="row">
                         <div class="col d-grid">
-                            <button type="submit" class="btn btn-success">Registrar</button>
+                            <button type="submit" class="btn btn-warning color-btn">Registrar</button>
                         </div>
                     </div>
                 </form>
