@@ -9,7 +9,7 @@
         <div class="card-body">
             <div class="container">
                 <form method="POST" action="">
-                    <div class="mb-3 row">
+                    <div class="mb-3 row text-center ">
                         <label for="inputName" class="col-xs-4 col-form-label">Usuario</label>
                         <div class="col-xs-8">
                             <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" required>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="row">
                         <div class="col d-grid">
-                            <button type="submit" class="btn btn-success">Registrar</button>
+                            <button type="submit" class="btn btn-success">Iniciar Sesion</button>
                         </div>
                     </div>
                 </form>

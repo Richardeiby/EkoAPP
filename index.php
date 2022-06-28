@@ -12,10 +12,10 @@
             <div class="card-body">
                 <div class="row ">
                     <div class="col d-grid px-1">
-                        <a name="" id="" class="btn btn-primary" href="views/inicioSesion.php" role="button">Iniciar Sesion</a>
+                        <a name="" id="" class="btn btn-warning color-btn" href="views/inicioSesion.php" role="button">Iniciar Sesion</a>
                     </div>
                     <div class="col d-grid px-1">
-                        <a name="" id="" class="btn btn-primary" href="views/registrar.php" role="button">Registrar</a>
+                        <a name="" id="" class="btn btn-warning color-btn" href="views/registrar.php" role="button">Registrar</a>
                     </div>
                 </div>
 

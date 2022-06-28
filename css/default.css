@@ -1,0 +1,13 @@
+body{
+    background-color: #e7f4da;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.color-btn{
+    background-color: #de4e0f;
+    border-color: #de4e0f;
+    color: #fff;
+}
